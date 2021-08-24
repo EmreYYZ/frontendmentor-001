@@ -25,12 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
+Screenshot of my solution.
 ![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://emreyyz.github.io/frontendmentor-001/)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-card-solution-with-flexbox-whpK1qG6T](https://www.frontendmentor.io/solutions/order-summary-card-solution-with-flexbox-whpK1qG6T)
+- Live Site URL: [https://emreyyz.github.io/frontendmentor-001/](https://emreyyz.github.io/frontendmentor-001/)
 
 ## My process
 
