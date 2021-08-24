@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap");
+
+body,
+button {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  background-color: hsl(225, 100%, 94%);
+  margin-bottom: 10px;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+/* Main Card */
+main {
+  margin: auto;
+  margin-top: 102px;
+  width: 90%;
+  max-width: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 75px;
+  box-shadow: 0px 40px 40px -20px hsla(228, 87%, 39%, 0.15);
+}
+
+.topText {
+  text-align: center;
+  width: 78%;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.topText p {
+  margin-top: 17px;
+}
+
+/* Price Card */
+
+.priceCard-container {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 11px;
+  width: 78%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.priceCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 24px 25px 24px;
+}
+
+.priceCard p,
+h4 {
+  margin-bottom: 6px;
+  margin: 0;
+}
+
+.priceCard button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+}
+
+.priceCard button:hover {
+  text-decoration: none;
+  color: hsl(245, 83%, 68%);
+  cursor: pointer;
+}
+
+.priceCard-middleText {
+  align-self: center;
+  flex-grow: 2;
+}
+
+.priceCard-change-btn {
+  align-self: center;
+}
+
+.heroImage {
+  background-image: url("./images/illustration-hero.svg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.musicIcon {
+  background-color: hsl(225, 100%, 94%);
+  align-self: center;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.btn-section {
+  text-align: center;
+}
+
+.btn-section button:first-child {
+  background-color: hsl(245, 75%, 52%);
+  width: 78%;
+  color: white;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  border-radius: 11px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.1903);
+}
+
+.btn-section button:first-child:hover {
+  background-color: hsl(245, 83%, 68%);
+  cursor: pointer;
+}
+
+.btn-section button:last-child {
+  background: none;
+  width: 78%;
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  border-radius: 11px;
+  margin-bottom: 48px;
+}
+.btn-section button:last-child:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+/* mb 71 mobile */
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  main {
+    margin-top: 71px;
+    width: 87%;
+    margin-bottom: 25px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .heroImage {
+    height: 160px;
+  }
+  .topText {
+    margin-top: 32px;
+  }
+  .topText p {
+    margin-top: 16px;
+  }
+  .priceCard-container {
+    width: 85%;
+    margin-bottom: 24px;
+  }
+  .priceCard {
+    padding: 17px 16px 16px 16px;
+  }
+  .priceCard-middleText {
+    font-size: 14px;
+  }
+  .musicIcon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .btn-section button:first-child {
+    width: 85%;
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .btn-section button:last-child {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+}
