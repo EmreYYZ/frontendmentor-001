@@ -53,6 +53,6 @@ These two made me lose a little bit of time but actually made the process much m
 
 ## Author
 
-- Website - [Emre C. Aydin](https://emre.la)
+- Website - [Emre C. Aydin](https://emre.ca)
 - Frontend Mentor - [@EmreYYZ](https://www.frontendmentor.io/profile/EmreYYZ)
 - Twitter - [@MostlyEmre](https://twitter.com/MostlyEmre)
